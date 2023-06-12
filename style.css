@@ -195,12 +195,18 @@ p{
 
       
 .nav-links ul li a{
-  font-size: 22px;
+  font-size: 25px;
 }
  
 .nav-links ul li{
   margin-inline: 0%;
 }
+
+.power{
+  font-size: 5px;
+}
+
+
    
 
 .education{
