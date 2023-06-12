@@ -1,0 +1,233 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(0, 191, 255);
+    color: #fff;
+    padding: 1%;
+  }
+  
+  nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1px 12px;
+    position: relative;
+    margin-inline: 1.3%;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav .fa{
+  display: none;
+}
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+  }
+
+  .icons a{
+    margin-inline: 1.3%;
+}
+
+.icons .fa{
+  color: #f44336;
+  cursor: pointer;
+  padding: 15px 0;
+  font-size: 27px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.icons .fa:hover {
+  background-color: crimson;
+  color: white;
+    
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 700;
+  color:   rgb(71, 71, 71);
+}
+
+h2{
+  text-align: left;
+}
+
+h3{
+  text-align: left;
+  color: #ff3224;
+}
+
+ h5{
+  text-align: right;
+  color: white;
+}
+
+
+
+.skill p{
+  padding-inline-start: 20%;
+}
+
+  /* style.css */
+
+  .course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    margin-inline: 5%;
+    padding: 20px;
+}
+
+.education{
+  font-size: 20px;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.project ul li{
+  text-align: left;
+  color: #ff3224;
+  margin-top: 4%;
+  list-style: none;
+}
+
+.project ul p {
+  padding-inline-start: 20%;
+  margin-bottom: 4%;
+}
+
+.project ul p {
+  padding-inline-start: 20%;
+  margin-bottom: 4%;
+}
+
+.project b{
+  font-size: large;
+  color: black;
+  margin-inline-start: 10%;
+}
+
+#certificate{
+  margin-bottom: 7%;
+  height: 70%;
+  width: 70%;
+}
+
+
+
+ 
+  
+
+  /* style.css */
+/* ...existing styles... */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+      .nav-links ul li{
+        margin-bottom: 15px;
+        font-size: 15px;
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: rgb(63, 255, 207);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -1000px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    .nav-links ul li:hover::after{
+      width: 0%;
+  }
+
+  .row{
+    flex-direction: column;
+}
+
+.education{
+  font-size: 15px;
+  padding: 15px;
+  
+}
+    
+  }
+  
