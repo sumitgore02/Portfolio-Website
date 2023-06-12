@@ -105,7 +105,11 @@ h3{
   color: white;
 }
 
-
+footer p{
+  font-size: 11px;
+  text-align: right;
+  color: #fff;
+}
 
 .skill p{
   padding-inline-start: 20%;
