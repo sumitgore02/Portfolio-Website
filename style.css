@@ -215,6 +215,10 @@ p{
     .nav-links ul{
         padding: 30px;
     }
+    
+    .nav-links ul li a {
+      color: black;
+  }
     .nav-links ul li:hover::after{
       width: 0%;
   }
