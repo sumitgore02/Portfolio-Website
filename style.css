@@ -111,6 +111,10 @@ footer p{
   color: #fff;
 }
 
+.skill{
+  margin-top: 10%;
+}
+
 .skill p{
   padding-inline-start: 20%;
 }
