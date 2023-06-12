@@ -187,9 +187,12 @@ p{
 
       
 .nav-links ul li a{
-  font-size: 14px;
+  font-size: 22px;
 }
  
+.nav-links ul li{
+  margin-inline: 0%;
+}
    
 
 .education{
