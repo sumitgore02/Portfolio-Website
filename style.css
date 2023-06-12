@@ -197,6 +197,11 @@ p{
         z-index: 2;
         transition: 1s;
     }
+    
+    .nav-links ul li a{
+      font-size: 18px;
+  }
+    
     nav .fa{
         display: block;
         color: #fff;
