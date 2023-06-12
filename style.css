@@ -1,4 +1,4 @@
-/* style.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -111,7 +111,6 @@ h3{
   padding-inline-start: 20%;
 }
 
-  /* style.css */
 
   .course{
     width: 80%;
@@ -180,13 +179,6 @@ p{
 
 
 
- 
-  
-
-  /* style.css */
-/* ...existing styles... */
-
-/* Responsive Styles */
 @media(max-width: 1000px) {
 
       .nav-links ul li{
@@ -196,7 +188,7 @@ p{
     }
     .nav-links{
         position: fixed;
-        background: rgb(63, 255, 207);
+        background: #f44336;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -216,9 +208,7 @@ p{
         padding: 30px;
     }
     
-    .nav-links ul li a {
-      color: black;
-  }
+
     .nav-links ul li:hover::after{
       width: 0%;
   }
